@@ -131,7 +131,7 @@ CITATION.cff
 dataset-index.yml
 LICENSE
 model-index.yml
-local_configs
+# local_configs
 .readthedocs.yml
 demo
 docker
