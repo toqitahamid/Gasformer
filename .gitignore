@@ -128,11 +128,11 @@ mmseg/.mim
 .owners.yml
 .pre-commit-config.yaml
 CITATION.cff
-# dataset-index.yml
+dataset-index.yml
 LICENSE
-# model-index.yml
-# local_configs
-
+model-index.yml
+local_configs
+.readthedocs.yml
 demo
 docker
 projects
