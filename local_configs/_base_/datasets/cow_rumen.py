@@ -1,6 +1,7 @@
 # dataset settings
 dataset_type = 'RumenDataset'
-data_root = '../../../../data/V8/'
+# data_root = '../../../../data/V8/'
+data_root = '../data/CR/'
 img_scale = (640, 480)
 crop_size = (512, 512)
 
