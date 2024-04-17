@@ -87,7 +87,6 @@ def inference(args: argparse.Namespace, logger: MMLogger) -> dict:
     outputs = get_model_complexity_info(
         model,
         input_shape,
-        inputs=data['inputs'],
         show_table=False,
         show_arch=False)
     result['flops'] = _format_size(outputs['flops'])

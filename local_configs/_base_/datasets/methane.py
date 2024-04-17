@@ -1,6 +1,7 @@
 # dataset settings
 dataset_type = 'MethaneDataset'
-data_root = '../../../../data/V7/'
+# data_root = '../../../../data/V7/'
+data_root = '../data/MR/'
 img_scale = (640, 480)
 crop_size = (512, 512)
 

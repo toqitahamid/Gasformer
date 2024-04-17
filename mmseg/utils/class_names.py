@@ -2,6 +2,19 @@
 from mmengine.utils import is_str
 
 
+def methane_classes():
+    """Cityscapes class names for external use."""
+    return [
+        'background', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'
+    ]
+
+def methane_palette():
+    """Cityscapes palette for external use."""
+    return [[120, 120, 120], [6, 230, 230], [192, 128, 224], [128, 192, 192], [128, 192, 64], [0, 192, 96], [0, 192, 224], [128, 32, 192], [0, 0, 224], [192, 224, 224], [255, 165, 0]]
+
+
+
+
 def cityscapes_classes():
     """Cityscapes class names for external use."""
     return [
@@ -10,6 +23,8 @@ def cityscapes_classes():
         'person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle',
         'bicycle'
     ]
+
+
 
 
 def ade_classes():
@@ -474,6 +489,7 @@ def bdd100k_palette():
 
 
 dataset_aliases = {
+    'methane': ['methane'],
     'cityscapes': ['cityscapes'],
     'ade': ['ade', 'ade20k'],
     'voc': ['voc', 'pascal_voc', 'voc12', 'voc12aug'],
