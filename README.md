@@ -13,16 +13,12 @@ Paper: ([arXiv 2404.10841](https://arxiv.org/abs/2404.10841))
 
 </div>
 
-
 - [Abstract](#abstract)
 - [Getting Started](#getting-started)
   - [Gasformer Installation](#gasformer-installation)
 - [Star History](#star-history)
 - [Citation](#citation)
 - [Acknowledgment](#acknowledgment)
-
-
-
 
 ## Abstract
 Methane emissions from livestock, particularly cattle, significantly contribute to climate change. Effective methane emission mitigation strategies are crucial as the global population and demand for livestock products increase. We introduce Gasformer, a novel semantic segmentation architecture for detecting low-flow rate methane emissions from livestock, and controlled release experiments using optical gas imaging. We present two unique datasets captured with a FLIR GF77 OGI camera. Gasformer leverages a Mix Vision Transformer encoder and a Light-Ham decoder to generate multi-scale features and refine segmentation maps. Gasformer outperforms other state-of-the-art models on both datasets, demonstrating its effectiveness in detecting and segmenting methane plumes in controlled and real-world scenarios. On the livestock dataset, Gasformer achieves mIoU of 88.56%, surpassing other state-of-the-art models.
@@ -37,20 +33,16 @@ Methane emissions from livestock, particularly cattle, significantly contribute 
 
 ## Getting Started
 
-
 ### Gasformer Installation
 
 **Step 1: Clone the Gasformer repository:**
 
 To get started, first clone the Gasformer repository and navigate to the project directory:
 
-
-
 ```bash
 git clone https://github.com/toqitahamid/Gasformer.git
 cd Gasformer
 ```
-
 
 **Step 2: Environment Setup:**
 
@@ -94,12 +86,9 @@ Gasformer is based on MMSegmentation 1.2.1, so we need to check the versions of 
 python -c "import torch, mmcv, mmseg; print(torch.__version__, mmcv.__version__, mmseg.__version__)"
 ```
 
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=toqitahamid/Gasformer&type=Date)](https://star-history.com/#toqitahamid/Gasformer&Date)
-
-
 
 ## Citation
 
@@ -111,8 +100,6 @@ python -c "import torch, mmcv, mmseg; print(torch.__version__, mmcv.__version__,
       year={2024},
 }
 ```
-
-
 
 ## Acknowledgment
 
