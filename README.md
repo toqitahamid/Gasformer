@@ -15,7 +15,7 @@ Paper: ([arXiv 2404.10841](https://arxiv.org/abs/2404.10841))
 
 - [Abstract](#abstract)
 - [Getting Started](#getting-started)
-  - [GasFormer Installation](#gasformer-installation)
+  - [Gasformer Installation](#gasformer-installation)
 - [Star History](#star-history)
 - [Citation](#citation)
 - [Acknowledgment](#acknowledgment)
@@ -37,7 +37,7 @@ Methane emissions from livestock, particularly cattle, significantly contribute 
 ## Getting Started
 
 
-### GasFormer Installation
+### Gasformer Installation
 
 **Step 1: Clone the Gasformer repository:**
 
