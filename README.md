@@ -63,8 +63,6 @@ conda create -n gasformer python=3.8
 conda activate gasformer
 ```
 
-***Install Dependencies***
-
 ***Install PyTorch and CUDA***
 
 ```bash
