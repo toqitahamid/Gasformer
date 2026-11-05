@@ -100,6 +100,7 @@ Checkpoints and configs for both datasets are on Hugging Face: [toqi/Gasformer](
 hf download toqi/Gasformer --local-dir weights
 python tools/test.py weights/CR/gasformer-160k_CR-512x512.py weights/CR/CR_best_mIoU_iter_160000.pth
 ```
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=toqitahamid/Gasformer&type=Date)](https://star-history.com/#toqitahamid/Gasformer&Date)
