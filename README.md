@@ -16,6 +16,7 @@ Paper: ([arXiv 2404.10841](https://arxiv.org/abs/2404.10841))
 - [Abstract](#abstract)
 - [Getting Started](#getting-started)
   - [Gasformer Installation](#gasformer-installation)
+- [Pretrained Weights](#pretrained-weights)
 - [Star History](#star-history)
 - [Citation](#citation)
 - [Acknowledgment](#acknowledgment)
@@ -86,6 +87,19 @@ Gasformer is based on MMSegmentation 1.2.1, so we need to check the versions of 
 python -c "import torch, mmcv, mmseg; print(torch.__version__, mmcv.__version__, mmseg.__version__)"
 ```
 
+## Pretrained Weights
+
+Checkpoints and configs for both datasets are on Hugging Face: [toqi/Gasformer](https://huggingface.co/toqi/Gasformer).
+
+| Folder | Dataset | Checkpoint | Config |
+|---|---|---|---|
+| `CR/` | Dairy Cow Rumen gas (binary) | `CR_best_mIoU_iter_160000.pth` | `gasformer-160k_CR-512x512.py` |
+| `MR/` | Controlled Methane Release (multi-class) | `MR_best_mIoU_iter_160000.pth` | `gasformer-160k_MR-512x512.py` |
+
+```bash
+hf download toqi/Gasformer --local-dir weights
+python tools/test.py weights/CR/gasformer-160k_CR-512x512.py weights/CR/CR_best_mIoU_iter_160000.pth
+```
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=toqitahamid/Gasformer&type=Date)](https://star-history.com/#toqitahamid/Gasformer&Date)
