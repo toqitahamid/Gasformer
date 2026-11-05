@@ -7,7 +7,7 @@
 
 <sup>1</sup> School of Computing, <sup>2</sup>  School of Agricultural Sciences.
 
-Southern Illinois University
+Southern Illinois University Carbondale
 
 Paper: ([arXiv 2404.10841](https://arxiv.org/abs/2404.10841))
 
