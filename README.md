@@ -108,11 +108,13 @@ python tools/test.py weights/CR/gasformer-160k_CR-512x512.py weights/CR/CR_best_
 ## Citation
 
 ```
-@article{sarker2024gasformer,
-      title={Gasformer: A Transformer-based Architecture for Segmenting Methane Emissions from Livestock in Optical Gas Imaging}, 
-      author={Toqi Tahamid Sarker and Mohamed G Embaby and Khaled R Ahmed and Amer AbuGhazaleh},
-      journal={arXiv preprint arXiv:2404.10841},
-      year={2024},
+@InProceedings{Sarker_2024_CVPR,
+    author    = {Sarker, Toqi Tahamid and Embaby, Mohamed G and Ahmed, Khaled R and Abughazaleh, Amer},
+    title     = {Gasformer: A Transformer-based Architecture for Segmenting Methane Emissions from Livestock in Optical Gas Imaging},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {5489-5497}
 }
 ```
 
