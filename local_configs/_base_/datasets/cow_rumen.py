@@ -54,9 +54,8 @@ train_dataloader = dict(
     dataset=dict(
         type=dataset_type,
         data_root=data_root,
-        data_prefix=dict(
-            img_path='train/images',
-            seg_map_path='train/mmseg_masks'),
+        ann_file='train.txt',
+        data_prefix=dict(img_path='images', seg_map_path='masks'),
         pipeline=train_pipeline))
 
 val_dataloader = dict(
@@ -67,9 +66,8 @@ val_dataloader = dict(
     dataset=dict(
         type=dataset_type,
         data_root=data_root,
-        data_prefix=dict(
-            img_path='validation/images',
-            seg_map_path='validation/mmseg_masks'),
+        ann_file='val.txt',
+        data_prefix=dict(img_path='images', seg_map_path='masks'),
         pipeline=test_pipeline))
 
 test_dataloader = dict(
@@ -80,9 +78,8 @@ test_dataloader = dict(
     dataset=dict(
         type=dataset_type,
         data_root=data_root,
-        data_prefix=dict(
-            img_path='test/images',
-            seg_map_path='test/mmseg_masks'),
+        ann_file='test.txt',
+        data_prefix=dict(img_path='images', seg_map_path='masks'),
         pipeline=test_pipeline))
 
 val_evaluator = dict(type='IoUMetric', iou_metrics=['mIoU', 'mFscore'])

@@ -129,7 +129,6 @@ mmseg/.mim
 .pre-commit-config.yaml
 CITATION.cff
 dataset-index.yml
-LICENSE
 model-index.yml
 # local_configs
 .readthedocs.yml
